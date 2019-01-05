@@ -1,0 +1,43 @@
+#result{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightslategrey;
+}
+
+.body-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightgrey;
+}
+
+.margin1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.margin2{
+    margin-left: 17.5%;
+}
+
+.margin3{
+    margin-top: 10%;
+}
+
+.pontos{
+    float: right;
+}
+
+.tb-pontos {
+    text-align: center;
+    width: 150px;
+    border: 1px black solid;
+}
+
+tr, th, td{
+    border: 1px black solid;
+}
+
+.tb-pontos > th {
+    height: 30px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+    <title>Exercicios de JavaScript</title>
+</head>
+
+<body>
+
+    <div class="container mt-3 body-content">
+
+        <div id="imagem">
+            <img src="../img/interroga.png" alt="" class="rounded margin1" id="user">
+            <img src="../img/interroga.png" alt="" class="rounded" id="cpu">
+            <div class="pontos">
+                <table class="tb-pontos">
+                    <thead>
+                        <tr>
+                            <th>Usuário</th>
+                            <th id ="lcpu">CPU</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="jg">
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div id="opcoes">
+            <button type="button" onclick="jogar('pedra')" class="btn btn-dark margin2  mt-3 mr-3">PEDRA</button>
+            <button type="button" onclick="jogar('papel')" class="btn btn-dark mt-3 mr-3">PAPEL</button>
+            <button type="button" onclick="jogar('tesoura')" class="btn btn-dark mt-3">TESOURA</button>
+        </div>
+
+    </div>
+
+    <div id="result" class="container mt-3 body-content">
+        <strong id="winner" class="text-uppercase">Resultado: </strong>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="../javascript/jokenpo.js"></script>
+</body>
+
+</html>
